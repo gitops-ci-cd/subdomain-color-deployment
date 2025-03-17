@@ -12,4 +12,25 @@ patches:
     patch: |-
       - op: add
         path: /spec/hostnames/-
-        value: "*.color.dudo.dev"
+        value: "red.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "orange.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "yellow.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "green.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "blue.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "indigo.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "violet.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "black.dudo.dev"

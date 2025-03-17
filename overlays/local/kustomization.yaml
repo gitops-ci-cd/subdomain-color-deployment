@@ -12,4 +12,25 @@ patches:
     patch: |-
       - op: add
         path: /spec/hostnames/-
-        value: "*.color.localhost"
+        value: "red.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "orange.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "yellow.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "green.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "blue.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "indigo.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "violet.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "black.localhost"
