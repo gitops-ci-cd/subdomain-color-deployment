@@ -34,3 +34,9 @@ patches:
       - op: add
         path: /spec/hostnames/-
         value: "black.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "white.localhost"
+      - op: add
+        path: /spec/hostnames/-
+        value: "419fff.localhost"

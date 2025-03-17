@@ -34,3 +34,9 @@ patches:
       - op: add
         path: /spec/hostnames/-
         value: "black.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "white.dudo.dev"
+      - op: add
+        path: /spec/hostnames/-
+        value: "419fff.dudo.dev"
