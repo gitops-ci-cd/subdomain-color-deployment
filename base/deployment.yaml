@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: subdomain-color
+  name: subdomain-color
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: subdomain-color
+  template:
+    metadata:
+      labels:
+        app: subdomain-color
+    spec:
+      containers:
+        - name: app
+          image: subdomain-color
+          ports:
+            - name: web
+              containerPort: 80
+          resources:
+            requests:
+              cpu: 100m
+              memory: 100M
+            limits:
+              cpu: 200m
+              memory: 200M

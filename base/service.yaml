@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: subdomain-color
+spec:
+  type: ClusterIP
+  selector:
+    app: subdomain-color
+  ports:
+    - port: 80
+      targetPort: web
